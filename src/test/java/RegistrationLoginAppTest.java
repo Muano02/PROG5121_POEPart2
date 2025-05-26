@@ -21,7 +21,7 @@ public class RegistrationLoginAppTest {
     // 1. Username is correctly formatted
     @Test
     public void testUsernameCorrectlyFormatted() {
-        String username = "Kyl_1";
+        String username = "Kyl1";
         assertTrue(registration.checkUserName(username));
     }
 
